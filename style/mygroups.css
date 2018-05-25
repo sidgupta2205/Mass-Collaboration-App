@@ -1,0 +1,23 @@
+.mgroup{
+height:auto;
+width:75%;	
+background-color:#FF6F21;
+border-style:solid;
+position:relative;
+left:10%;
+margin-top:7%;
+color:#910606;
+	font-size:35px;
+	font-family:Comic Sans MS;
+	text-align:center;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	border-color:black;
+	border-width:1;
+}
+.mgroup:hover{
+	background-color:red;
+	cursor:pointer;
+}

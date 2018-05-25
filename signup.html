@@ -1,0 +1,73 @@
+<?php
+include_once('connect.php');
+if(isset($_POST['submit']))
+{
+	$fname = $_POST['fname'];
+	$lname = $_POST['lname'];
+	$email = $_POST['email'];
+	$pass = $_POST['pass'];
+	$mob = $_POST['mob'];
+	$gender = $_POST['sex'];
+	$dob = $_POST['dob'];
+	
+if (empty($fname)){
+$msg="please enter first name";
+}
+else if (empty($lname)){
+$msg= "please enter last name";}
+else if(empty($email)){
+$msg="please enter Email";}
+else if(empty($pass)){
+	$msg="please enter a password";
+}
+else if(empty($mob)){
+$msg="please enter your mobile no.";}
+else if(empty($dob)){
+$msg="please enter your date of birth";}
+else{ 
+mysql_query("insert into signup(first_name,last_name,e_mail,mobile_num,password,Birth_date,gender) VALUES ('$fname','$lname','$email','$mob','$pass','$dob','$gender')");
+echo "your database is saved";
+}
+}
+?>
+<html>
+<head>
+<title>
+Sign up
+</title>
+<link rel="stylesheet" type="text/css" href="color.css"  media="all">
+</head>
+<body class=fld>
+<center><h1> REGISTER NOW </h1></center><br><br>
+<center><div>
+<table border="0" cellpadding="8">
+
+<form action="" method="post">
+
+<tr>
+<td>First name</td><td><input class=dof type="text" name="fname" ></td></tr>
+<tr>
+<td>Last name</td>  <td><input class=dof type="text" name="lname" ></td></tr>
+<tr>
+<td>E-mail</td><td><input class=dof type="text" name="email" ></td></tr>
+<tr>
+<td>Password</td><td><input class=dof type="password" name="pass"></td></tr>
+<tr>
+<td>Mobile</td><td><input class=dof type="text" name="mob"></td></tr>
+<tr>
+<td>Birthdate</td>  <td><input class=dof type="date" name="dob"></td></tr>
+<tr>
+<td>Gender</td><td><input type="radio" name="sex" value="male" checked>Male
+<input type="radio" name="sex" value="female">Female
+</td></tr>
+<tr>
+<td colspan="2"><center>
+<input class=dob type="submit" name="submit" value="Sign up"></center></td></tr></table></h5>
+</div></center>
+<p style="color:blue"><?php
+if(isset($msg))
+{
+	echo $msg;
+}
+?></P>
+</body>

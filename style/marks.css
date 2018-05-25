@@ -1,0 +1,130 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: helvetica;
+    font-weight: 100;
+    background-color:#521F94;
+overflow:hidden;
+	}
+	
+#but{
+	height:70%
+}	
+#header{
+	height:40%;
+	background-color:#CFCBD1;
+	
+}
+#leftnav{
+padding-top:0px;
+float:left;
+padding-left:7px;
+padding-right:4%;
+}
+#bu1{
+	background-color:#CFCBD1;
+	margin-top:0px;
+}
+#main_heading{
+		font-weight:bold;
+	margin-top:0px;
+	font-size:50;
+	color:black;
+	margin-left:30%;
+	float:left;
+}
+#kaliPati{
+	background-color:black;
+	height:30%;
+	width:100%;
+	font-size:60;
+	overflow:hidden;
+	}
+#side{
+	padding-top:10px;
+	width:40%;
+height:100%;
+border-style:solid;	
+-webkit-box-sizing:border-box;
+overflow:scroll;
+	float:left;
+	
+}
+#mark{
+	width:60%;
+height:100%;	
+border-style:solid;
+-webkit-box-sizing:border-box;
+float:left;
+}
+#exam{
+	border-style:solid;
+	border-color:white;
+	height:40%;
+	width:42%
+	font-size:80%;
+}
+#select_exam{
+	-webkit-box-sizing:border-box;
+	width:100%;
+	height:100%;
+	color:white;
+	padding-left:9%;
+	padding-top:15px;
+	font-size:20;
+
+	float:left;
+}
+.stunam{
+	width:100%;
+	height:auto;
+	border-style:solid;	
+-webkit-box-sizing:border-box;
+color:#CFCBD1;
+font-size:180%;	
+text-align:center;}
+#enter{
+	-webkit-box-sizing:border-box;
+	width:90%;
+	margin:0 auto;
+}
+#marki{
+	width:90%;
+	height:auto;
+	font-size:20;
+	text-align:center;
+}
+#submbtn{
+	display:block;
+	margin-top:10px;
+	width:80%;
+	height:auto;
+	font-size:25;
+}
+.dof{
+	
+	width:160px;
+	height:3px;
+	background-color:#CFCBD1;
+	font-size:23;
+	margin-left:10px;
+}	
+h6{
+height:100%;
+width:140%;
+font-size:120;
+color:white;
+}
+#current{
+	padding-bottom:10px;
+	left:0%;
+	color:#CFCBD1;
+	font-size:32;
+	font-weight:bold;
+	}
+.green{
+	color:green;
+}
+#main_content{
+
+height:60%;}

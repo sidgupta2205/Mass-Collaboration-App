@@ -1,0 +1,148 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: helvetica;
+    font-weight: 100;
+    background-color:#521F94;
+	}
+#header{
+	height:20%;
+	background-color:#CFCBD1;
+}
+#maincontent{
+	height:80%;
+	width:100%;
+}
+#but{
+	width:100%;
+	height:80%;
+	width:100%;
+}
+#leftnav{
+float:left;
+padding-left:7px;
+padding-right:4%;
+}
+#bu1{
+	background-color:#CFCBD1;
+}
+#heading{
+		font-weight:bold;
+	font-size:40;
+	color:black;
+	margin-left:5%;
+	float:left;
+}
+#kaliPati{
+	background-color:black;
+	height:20%;
+	width:100%;
+	}
+.bugwall{
+float:left;
+font-family: Arial black;
+font-weight: bold;
+font-size:35px;
+border-style:solid;
+color:white;
+height:90%;
+-webkit-box-sizing:border-box;
+width:50%;
+text-align:center;
+}
+
+.bugwall:hover{
+	border-color:#521F94;
+    cursor:pointer;
+	}
+.dis{
+	display:block;
+}
+.dis1{
+	display:none;
+}
+h5 {
+	display:inline;
+}
+#now{
+width:30%;
+height:100%;
+border-style:solid;	
+-webkit-box-sizing:border-box;
+	float:left;
+	overflow:scroll;
+	}
+#stname{
+width:70%;
+height:100%;	
+border-style:solid;
+-webkit-box-sizing:border-box;
+float:left;
+}	
+.stuname{
+	width:100%;
+	height:auto;
+	border-style:solid;
+}
+.bu3{
+	background-color:#521F94;
+	border-width:0;
+}
+#dat{
+padding-left:15px;	
+}
+#show{
+	font-size:40px;
+	-webkit-box-sizing:border-box;
+	padding-left:10%;
+}
+#name{
+	padding-bottom:10px;
+	color:#CFCBD1;
+	font-size:25;
+	font-weight:bold;
+	}
+#heading em{
+	font-size:20;
+	padding-right:10px;
+}
+.green{
+	color:green;
+}
+.red{
+	color:red;
+}
+#subd{
+	float:left;
+	width:20%;
+	-webkit-box-sizing:border-box;
+	height:100%;
+	border-right-style:solid;
+color:#CFCBD1;
+	}
+#stud{
+		float:left;
+	width:40%;
+	-webkit-box-sizing:border-box;
+	height:100%;
+	border-right-style:solid;
+	color:#CFCBD1;
+}
+.subf{
+	width:100%;
+	-webkit-box-sizing:border-box;
+	border-bottom-style:solid;
+	font-size:30;
+	color:#CFCBD1;
+}
+#dshow{
+	font-size:25;
+	color:red;
+}
+.stunam{
+	width:100%;
+	height:auto;
+	border-style:solid;	
+-webkit-box-sizing:border-box;
+color:#CFCBD1;
+	}

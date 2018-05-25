@@ -1,0 +1,63 @@
+.cld{
+position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	background-color:#CFCBD1 ;
+	height:40%;
+}
+
+h3{
+		color:#CFCBD1;
+	font-size:25;
+	font-family:Comic Sans MS;
+	}
+	h1 {
+	color:#521F94;
+	font-size:35;
+	}
+.ggg{
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	height:60%;
+	background-color:#521F94  ;
+}
+.signl{
+	padding-top:100px;
+	}	
+.doc{
+	
+	width:150px;
+	height:40px;
+	background-color:#CFCBD1;
+	font-size:15;
+}
+	
+.dob{
+	
+	width:250px;
+	height:60px;
+	background-color:#CFCBD1;
+	font-size:20;
+}
+.dof{
+	
+	width:250px;
+	height:50px;
+	background-color:4F0606;
+	font-size:20;
+}
+textarea:focus, input:focus {
+    color: #CFCBD1 ;
+}
+
+input, select, textarea{
+    color: #000;
+}
+hr {
+	border-color: #CFCBD1;
+	height:1px;
+	background-color:#CFCBD1;
+}

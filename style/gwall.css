@@ -1,0 +1,79 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow:hidden;
+    font-family: helvetica;
+    font-weight: 100;
+    background-color:#910606;
+}
+#buttonss{
+	height:70%;
+	width:100%;
+}
+#kaliPati{
+	background-color:black;
+	height:30%;
+	width:100%;
+	
+	}
+#header{
+	height:40%;
+	background-color:#FF6F21;
+width:100%;
+top:0;
+left:0;
+right:0;
+}
+#leftnav{
+padding-top:15px;
+float:left;
+padding-left:7px;
+padding-right:4%;
+}
+#bugwall{
+width:35%;
+margin-top:10px;
+padding-left:5px;
+float:left;
+font-family: Arial black;
+font-weight: bold;
+font-size:22px;
+border-style:solid;
+}
+#bugwall:hover{
+	border-color:#910606;
+    cursor:pointer;
+	}
+#bumygroups{
+margin-top:10px;
+width:40%;
+float:left;
+font-family: Arial black;
+font-weight: bold;
+font-size:22px;
+border-style:solid;
+}	
+#bumygroups:hover{
+border-color:#910606;
+cursor:pointer;
+}
+#bu1{
+	background-color:#FF6F21;
+	
+}
+.dis{
+	display:inline;
+border-color:#910606;
+}
+.dis1{
+	display:none;
+}
+#maincontent{
+height:60%;
+width:100%;	
+overflow:scroll;
+bottom:0;
+left:0;
+right:0;
+position:absolute;
+}

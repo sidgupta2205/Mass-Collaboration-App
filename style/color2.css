@@ -1,0 +1,28 @@
+.cld{
+background-image: -webkit-linear-gradient(bottom, #910606 90%, #FF6F21 10%);
+}
+h1 {
+	color:#910606;
+	font-size:35;
+	}
+.dof{
+	
+	width:250px;
+	height:50px;
+	background-color:4F0606;
+	font-size:20;
+}
+textarea:focus, input:focus {
+    color: #FF6F21 ;
+}
+
+input, select, textarea{
+    color: #000;
+}	
+.dob{
+	
+	width:250px;
+	height:60px;
+	background-color:#FF6F21;
+	font-size:20;
+}

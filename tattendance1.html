@@ -1,0 +1,65 @@
+<?php
+session_start();
+$conn=mysqli_connect('localhost','root','','signup') or die("madarchod:".mysqli_error());
+?>
+
+<script>
+/*
+when teacher once signin.
+the student of all subjects the teacher teach is saved in j database
+{
+
+}
+
+*/
+
+
+
+
+var db = openDatabase('mydb','1.0','test','2*1024*1024');
+db.transaction(function (tx){
+tx.executeSql("CREATE TABLE IF NOT EXISTS `attendance` (
+  `attendance_id` int(11) NOT NULL,
+  `student_name` varchar(50) NOT NULL,
+  `att_user_id` int(11) NOT NULL,
+  `subject` int(11) NOT NULL,
+  `month` varchar(50) NOT NULL,
+  `1` varchar(10) NOT NULL,
+  `2` varchar(10) NOT NULL,
+  `3` varchar(10) NOT NULL,
+  `4` varchar(10) NOT NULL,
+  `5` varchar(10) NOT NULL,
+  `6` varchar(10) NOT NULL,
+  `7` varchar(10) NOT NULL,
+  `8` varchar(10) NOT NULL,
+  `9` varchar(10) NOT NULL,
+  `10` varchar(10) NOT NULL,
+  `11` varchar(10) NOT NULL,
+  `12` varchar(10) NOT NULL,
+  `13` varchar(10) NOT NULL,
+  `14` varchar(10) NOT NULL,
+  `15` varchar(10) NOT NULL,
+  `16` varchar(10) NOT NULL,
+  `17` varchar(10) NOT NULL,
+  `18` varchar(10) NOT NULL,
+  `19` varchar(10) NOT NULL,
+  `20` varchar(10) NOT NULL,
+  `21` varchar(10) NOT NULL,
+  `22` varchar(10) NOT NULL,
+  `23` varchar(10) NOT NULL,
+  `24` varchar(10) NOT NULL,
+  `25` varchar(10) NOT NULL,
+  `26` varchar(10) NOT NULL,
+  `27` varchar(10) NOT NULL,
+  `28` varchar(10) NOT NULL,
+  `29` varchar(10) NOT NULL,
+  `30` varchar(10) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
+");
+});
+</script>
+<?php
+$r = "select subj_id from teac_sub where te_id='".$SESSION['id']."'";
+$res = mysqli_query($conn,$r);
+$rrr = mysqli_fetch_array($res);
+?>

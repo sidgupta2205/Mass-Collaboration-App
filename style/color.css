@@ -1,0 +1,117 @@
+.container{
+	height:100%;
+	background-color:#910606;
+}
+.lllg{
+	position:abs;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#910606 ;
+	height:10%;
+}
+.cld{
+position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	background-color:#FF6F21 ;
+	height:40%;
+}
+.ggg{
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	height:60%;
+	background-color:#910606  ;
+}
+.cldp{
+position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	background-color:#FF6F21 ;
+	height:20%;
+}
+.gggp{
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	height:80%;
+	background-color:#910606  ;
+}
+	table {
+	font-size:20;
+	font-weight:bold;
+
+}	
+.fld{
+	background-image: -webkit-linear-gradient(bottom, #910606 90%, #FF6F21 10%);
+	}
+	
+.indiv
+	{
+	padding-top:0px;	
+	}
+h3{
+		color:#FF6F21;
+	font-size:25;
+	font-family:Comic Sans MS;
+	}
+h1 {
+	padding-top:10px;
+	color:#910606;
+	font-size:25;
+	}
+	
+.signl{
+	padding-top:100px;
+	}	
+
+h6 {
+	color:#FF6F21;
+	font-size:18;
+	}
+	
+h5 {
+	font-size:20;
+	font-weight:bold;
+}	
+	
+	.doc{
+	
+	width:150px;
+	height:40px;
+	background-color:#FF6F21;
+	font-size:15;
+}
+	
+.dob{
+	
+	width:250px;
+	height:60px;
+	background-color:#FF6F21;
+	font-size:20;
+}
+.dof{
+	
+	width:150px;
+	height:50px;
+	background-color:4F0606;
+	font-size:20;
+}
+textarea:focus, input:focus {
+    color: #FF6F21 ;
+}
+
+input, select, textarea{
+    color: #000;
+}
+hr {
+	border-color: #FF6F21;
+	height:1px;
+	background-color:#FF6F21;
+}

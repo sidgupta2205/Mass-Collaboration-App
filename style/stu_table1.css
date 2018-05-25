@@ -1,0 +1,29 @@
+table {
+    border-style:solid;
+	background-color:black;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	width:50%;
+	height:75%;
+}
+
+table, td {
+    border: 1px solid black
+}
+
+td {text-align: center;
+background-color:#910606;
+font-weight:bold;
+color:white;
+}
+td:hover{
+background-color:#F24954;	
+}
+th{
+	text-align: center;
+background-color:#910606;
+font-weight:bold;
+color:#FF6F21;
+}
